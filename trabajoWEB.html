@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Su Parafarmacia</title> <!--Título de la página, aparece en la ventana superior-->
+    <link rel="stylesheet" href="styleTrabajo.css"> <!--referencia al archivo CSS relacionado (en este caso solo hay un ajuste del tamaño de las imágenes)-->
+</head>
+<body>
+
+    <header> <!--Etiqueta de encabezado, lo que aparecerá al inicio de la web-->
+        <h1>Bienvenidos a Su Parafarmacia de Confianza</h1> <!--Etiqueta de título-->
+        <nav> <!--Etiqueta para definir una sección de navegación dentro de la página-->
+            <button type="submit">Buscador de producto</button> <!--Etiqueta de botón para buscar algo en la web-->
+            <ul> <!--Lista no ordenada-->
+                <li><a href="#cosmetica">Cosmética</a></li> <!--elementos dentro de la lista en formato link-->
+                <li><a href="#multivitaminas">Multivitaminas</a></li>
+                <li><a href="#higiene-bucodental">Higiene Bucodental</a></li>
+                <li><a href="#inicio-sesion">Iniciar Sesión</a></li>
+                <li><a href="#crear-cuenta">Crear Cuenta</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul> <!--fin de la lista-->
+        </nav> <!--fin de la etiqueta de navegación-->
+    </header> <!--fin del encabezado-->
+
+    <section id="cosmetica"> <!-- etiqueta para definir una sección del contenido de la web que tiene un tema específico, con el id correspondiente al que se referencia en el header-->
+        <h2>Cosmética</h2> <!--título más pequeño-->
+        <img src="https://i.pinimg.com/736x/b2/88/72/b28872af3b6728df909be3a7f0760280.jpg" alt="Foto de texturas de cremas"> <!--etiqueta para imagen con texto alternativo-->
+        <p>En esta sección de cosmética podrás encontrar, en orden de rutina de <em>skincare</em> <!--cursiva-->, 
+            una amplia variedad de productos de muchas marcas conocidas para el cuidado de tu piel, rostro y cuerpo.</p> <!--párrafo-->
+        <ul>
+            <li> <!--elemento dentro de la lista no ordenada-->
+                <h3>Limpiadores faciales</h3> <!--título más pequeño-->
+                <p>Espumas, desmaquillantes, cremas y geles limpiadores para preparar tu rostro antes de cualquier tratamiento, según tu tipo de piel.</p>
+                <table border="1"> <!--etiqueta para la creación de una tabla, y su atributo para definir un borde-->
+                    <tr align="center"> <!--etiqueta para establecer las columnas, con el atributo que centra el texto-->
+                        <th>Producto</th> <!--encabezado de la columna-->
+                        <th>Marca</th>
+                        <th>Precio</th>
+                    </tr> <!--fin de la columna-->
+                    <tr>
+                        <td>Gel Limpiador <br> <!--salto de linea--> micro-exfoliante</td> <!--datos dentro de la tabla-->
+                        <td>La Roche Posay</td>
+                        <td>22.95€</td>
+                    </tr>
+                    <tr>
+                        <td>Gel Limpiador <br> espumoso</td>
+                        <td>CeraVe</td>
+                        <td>12.20€</td>
+                    </tr>
+                    <tr>
+                        <td>Espuma limpiadora <br> suave</td>
+                        <td>Nuxe</td>
+                        <td>17.50€</td>
+                    </tr>
+                </table> <!--fin de la tabla-->
+            </li>
+            <li>
+                <h3>Sérums faciales</h3>
+                <p>Sérums eficaces para combatir y prevenir los signos del envejecimiento, hidratar y nutrir la piel y/o darle luminosidad.</p>
+                <table border="1">
+                    <tr align="center">
+                        <th>Producto</th>
+                        <th>Marca</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Sérum de Vitamina C</td>
+                        <td>La Roche Posay</td>
+                        <td>44.95€</td>
+                    </tr>
+                    <tr>
+                        <td>Sérum Hyalu B5</td>
+                        <td>La Roche Posay</td>
+                        <td>45.00€</td>
+                    </tr>
+                    <tr>
+                        <td>Melaclear</td>
+                        <td>Isdin</td>
+                        <td>69.00€</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Cremas hidratantes y de tratamiento antiedad</h3>
+                <p>Cremas con acción hidratante para darle a tu rostro y cuerpo la hidratación que necesita.<br>
+                Cremas para combatir y prevenir los signos de la edad. <br></p>
+                <table border="1">
+                    <tr align="center">
+                        <th>Producto</th>
+                        <th>Marca</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Hydrance Aqua-Gel</td>
+                        <td>Avene</td>
+                        <td>19.90€</td>
+                    </tr>
+                    <tr>
+                        <td>Crema Boost</td>
+                        <td>Nuxe</td>
+                        <td>25.50€</td>
+                    </tr>
+                    <tr>
+                        <td>Hyaluron-Filler</td>
+                        <td>Eucerin</td>
+                        <td>39.90€</td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <h3>Protectores solares</h3>
+                <p>Productos que te protegen del sol, combatiendo así el envejecimiento prematuro de la piel debido a los rayos UV y UVB.</p>
+                <table border="1">
+                    <tr align="center">
+                        <th>Producto</th>
+                        <th>Marca</th>
+                        <th>Precio</th>
+                    </tr>
+                    <tr>
+                        <td>Protector Ultra Fluid 50+</td>
+                        <td>Avene</td>
+                        <td>20.90€</td>
+                    </tr>
+                    <tr>
+                        <td>Protector Fusion Water 50+</td>
+                        <td>Isdin</td>
+                        <td>25.95€</td>
+                    </tr>
+                    <tr>
+                        <td>Capital Soleil UV-Clear 50+</td>
+                        <td>Vichy</td>
+                        <td>21.00€</td>
+                    </tr>
+                </table> 
+            </li> 
+        </ul> 
+    </section> <!--fin de la sección-->
+
+    <section id="multivitaminas">
+        <h2>Multivitaminas</h2>
+        <img src="https://i.pinimg.com/736x/cf/7b/ab/cf7bab26ba99d8b73cacb33d69ec0e6a.jpg" alt="Foto de vitaminas con un vaso de agua">
+        <p>Un catálogo variado de suplementos que te ayudarán cuando sientas que no tienes suficiente, y así mantenerte saludable a pesar de todo.</p>
+        <ul>
+            <li>
+                <h3>Multivitaminas para Adultos</h3>
+                <p>Suplementos que contienen una gran cantidad de vitaminas y minerales para cubrir las necesidades diarias.</p>
+            </li>
+            <li>
+                <h3>Vitaminas para Niños</h3>
+                <p>Suplementos adaptados a las necesidades nutricionales de los más pequeños.</p>
+            </li>
+            <li>
+                <h3>Vitaminas para Deportistas</h3>
+                <p>Suplementos para mantener el rendimiento físico y una buena recuperación muscular.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="higiene-bucodental">
+        <h2>Higiene Bucodental</h2>
+        <img src="https://i.pinimg.com/736x/aa/9d/54/aa9d54a9426ca7f44d6bcd302bf35a51.jpg" alt="Foto de cepillo de dientes">
+        <p>Una correcta higiene bucal es esencial para una sonrisa saludable y bonita. Aquí encontrarás todo lo que necesitas para tener una.</p>
+        <ul>
+            <li>
+                <h3>Pastas de Dientes</h3>
+                <p>Pastas dentales para la protección contra caries, encías y blanqueamiento.</p>
+            </li>
+            <li>
+                <h3>Enjuagues Bucales</h3>
+                <p>Enjuagues para una higiene bucal completa y protección contra bacterias.</p>
+            </li>
+            <li>
+                <h3>Cepillos de Dientes</h3>
+                <p>En nuestro catálogo encontrarás diferentes cepillos de dientes manuales y eléctricos para una limpieza efectiva.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="inicio-sesion">
+        <h2>Iniciar Sesión</h2>
+        <form action="inicio_sesion" method="POST"> <!--etiqueta para crear un formulario con el método POST que especifica cómo se enviarán los datos del formulario al servidor cuando el usuario envíe el formulario-->
+            <label for="email">Correo Electrónico:</label><br> <!--etiqueta para definir una etiqueta de texto asociada a un campo de un formulario, con el atributo 'for' para definir dicho campo-->
+            <input type="email" id="email" name="email" required><br><br> <!--etiqueta para crear un campo de entrada, con el atributo type para definir el tipo de dato-->
+            <label for="contraseña">Contraseña:</label><br>
+            <input type="password" id="contraseña" name="contraseña" required><br><br> <!--required significa que al usuario le saldrá como un dato obligatorio que debe introducir-->
+            <input type="submit" value="Iniciar Sesión"> <!--crea un botón para iniciar sesión-->
+        </form> <!--fin del formulario--> 
+        <p>¿No tienes cuenta? <a href="#crear-cuenta">Crea una cuenta aquí</a>.</p> <!--hyperlink que redirige al usuario al apartado de crear cuenta-->
+    </section>
+
+    <section id="crear-cuenta">
+        <h2>Crear Cuenta</h2>
+        <form action="crear_cuenta" method="POST">
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="contraseña">Contraseña:</label><br>
+            <input type="password" id="contraseña" name="contraseña" required><br><br>
+            <label for="confirmar-contraseña">Confirmar Contraseña:</label><br>
+            <input type="password" id="confirmar-contraseña" name="confirmar_contraseña" required><br><br>
+            <input type="submit" value="Crear Cuenta">
+        </form>
+        <p>¿Ya tienes cuenta? <a href="#inicio-sesion">Inicia sesión aquí</a>.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para más información o si tienes alguna consulta, no dudes en ponerte en contacto con nosotros.</p>
+        <address> <!--etiqueta para representar información de contacto o una dirección física-->
+            <p>Teléfono: 93.877.88.90</p>
+            <p>Email: su@parafarmacia.com</p>
+            <p>Dirección: Calle Parada, 22, Barcelona</p>
+        </address> <!--fin de la etiqueta de la dirección física-->
+    </section>
+
+    <footer> <!--etiqueta para representar el pie de página-->
+        <p>&copy; <!--etiqueta para enseñar el símbolo de los derechos de autor--> 2024 Su Parafarmacia - Todos los derechos reservados.</p>
+    </footer> <!--fin de la etiqueta de pie de página-->
+</body> <!--fin de la etiqueta del cuerpo de la web-->
+</html> <!--fin del documento html-->
